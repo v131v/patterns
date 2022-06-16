@@ -1,7 +1,7 @@
 class Singleton1 {
 
   static getInstance() {
-    this.instance ??= new Singleton();
+    this.instance ??= new Singleton1();
     return this.instance;
   }
 
@@ -35,8 +35,10 @@ const s1 = Singleton1.getInstance();
 const s2 = Singleton1.getInstance();
 s1.printNext(); // 6
 s2.printNext(); // 7
+s1.printNext(); // 8
 
 const s3 = new Singleton2();
 const s4 = new Singleton2();
 s3.printNext(); // 6
 s4.printNext(); // 7
+s3.printNext(); // 8
