@@ -13,6 +13,10 @@ Structural:
 
 * Decorator
 
+Behavioral:
+
+* Chain of responsability
+
 ## Todo
 
 Creational:
@@ -30,7 +34,6 @@ Structural:
 
 Behavioral:
 
-* Chain of responsability
 * Command
 * Interpreter
 * Iterator
