@@ -9,6 +9,10 @@ Creational:
 * Abstract factory
 * Builder
 
+Structural:
+
+* Decorator
+
 ## Todo
 
 Creational:
@@ -20,7 +24,6 @@ Structural:
 * Adapter
 * Bridge
 * Composite
-* Decorator
 * Facade
 * Flyweight
 * Proxy
